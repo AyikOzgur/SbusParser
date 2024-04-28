@@ -1,5 +1,0 @@
-D:/Projects/CppCmake/SbusParser/SbusParser/build/CMakeFiles/ALL_BUILD.dir
-D:/Projects/CppCmake/SbusParser/SbusParser/build/CMakeFiles/ZERO_CHECK.dir
-D:/Projects/CppCmake/SbusParser/SbusParser/build/src/CMakeFiles/SbusParser.dir
-D:/Projects/CppCmake/SbusParser/SbusParser/build/test/CMakeFiles/SbusParserTest.dir
-D:/Projects/CppCmake/SbusParser/SbusParser/build/test/CMakeFiles/ALL_BUILD.dir
