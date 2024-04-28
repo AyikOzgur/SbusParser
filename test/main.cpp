@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstdlib> // For rand() and srand()
+#include <cstdlib>
 #include "SbusParser.h"
 
 int main ()
@@ -9,7 +9,7 @@ int main ()
     std::vector<uint16_t> writtingChannels(18);
     for (auto &channel : writtingChannels)
     {
-        channel = rand() % 2048;
+        channel = rand() % 2048; // 2048 is the max value SBUS supports.
     }
 
     // Last two channels are booleans.
@@ -36,9 +36,13 @@ int main ()
         }
     }
 
-    if(isPassed)
+    if (isPassed)
     {
         std::cout << "Writting and reading channels OK." << std::endl;
+    }
+    else
+    {
+        std::cout << "Test failed." << std::endl;
     }
 
     return 0;
